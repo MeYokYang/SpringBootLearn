@@ -1,0 +1,25 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///ssm_db?serverTimezone=UTC
+      username: root
+      password: root
+  main:
+    banner-mode: off
+  devtools:
+    restart:
+      # 设置不参与热部署的文件或文件夹
+      exclude: static/**, public/**, config/application.yml
+      enabled: false
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

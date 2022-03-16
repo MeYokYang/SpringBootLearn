@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///ssm_db?serverTimezone=UTC
+      username: root
+      password: root
+
+

@@ -1,0 +1,40 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ssm_db?serverTimeazone=UTC
+      username: root
+      password: root
+
+
+  cache:
+    type: redis
+    redis:
+      use-key-prefix: true #是否使用前缀，smsCode::16866668888的smsCode::
+      cache-null-values: false #是否使用空值
+      key-prefix: sms_ #use-key-prefix为false才有用，在smsCode::16866668888前加sms_
+      time-to-live: 10s
+  redis:
+    host: localhost
+    port: 6379
+    
+#ehcache配置,其他配置用配置文件做
+#  cache:
+#    type: ehcache #设置cache，不设则默认simple
+#    ehcache:
+#      config: ehcache.xml #指定配置文件名，不写则为ehcache.xml
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      id-type: auto
+
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+

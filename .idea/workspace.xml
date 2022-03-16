@@ -9,19 +9,269 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="543e27b2-bb18-41c0-b9f9-8f9bcde4f8de" name="Changes" comment="" />
+    <list default="true" id="543e27b2-bb18-41c0-b9f9-8f9bcde4f8de" name="Changes" comment="2022/3/16 init">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b647f005-f9eb-4d9e-afa0-3da90141ba22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b647f005-f9eb-4d9e-afa0-3da90141ba22/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b647f005-f9eb-4d9e-afa0-3da90141ba22/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b647f005-f9eb-4d9e-afa0-3da90141ba22/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.2022-03-04.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.2022-03-04.1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.2022-03-04.2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/java/com/MeYok/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/java/com/MeYok/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/java/com/MeYok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/resources/bak/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/resources/bak/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/resources/haha.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/src/test/java/com/MeYok/Springboot0102QuickstartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/bak/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/bak/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/com/MeYok/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/com/MeYok/MyDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/com/MeYok/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/classes/haha.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_02_base_configuration/target/test-classes/com/MeYok/Springboot0102QuickstartApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_junit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_junit/src/main/java/com/meyok/Springboot04JunitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_junit/src/main/java/com/meyok/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_junit/src/main/java/com/meyok/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_junit/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_04_junit/src/test/java/com/Springboot04JunitApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_05_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_05_mybatis/src/main/java/com/MeYok/Springboot05MybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_05_mybatis/src/main/java/com/MeYok/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_05_mybatis/src/main/java/com/MeYok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_05_mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_05_mybatis/src/test/java/com/MeYok/Springboot05MybatisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_06_mybatis_plus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_06_mybatis_plus/src/main/java/com/meyok/Springboot06MybatisPlusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_06_mybatis_plus/src/main/java/com/meyok/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_06_mybatis_plus/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_06_mybatis_plus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_06_mybatis_plus/src/test/java/com/meyok/Springboot06MybatisPlusApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_07_druid/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_07_druid/src/main/java/com/meyok/Springboot07druidApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_07_druid/src/main/java/com/meyok/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_07_druid/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_07_druid/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_07_druid/src/test/java/com/meyok/Springboot07druidApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/SSMPApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/config/MPConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/config/utils/ProjectExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/config/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/controller/BookController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/mapper/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/meyok/service/impl/BookServiceImpl_MP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/pages/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/meyok/Springboot08SsmpApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/meyok/mapper/BookDaoTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/meyok/service/BookServiceMPTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/meyok/service/BookServiceTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_0x/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_0x/src/main/java/com/MeYok/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_0x/src/main/java/com/MeYok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_0x/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_0x/src/test/java/com/MeYok/Springboot0102QuickstartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/bak/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/bak/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/java/com/meyok/Springboot10ProfilesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/java/com/meyok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/application-devDB.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/application-devMVC.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/main/resources/simple/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_10_profiles/src/test/java/com/meyok/Springboot10ProfilesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/SpringbootHotDeployApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/config/MPConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/config/utils/ProjectExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/config/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/mapper/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java/com/meyok/service/impl/BookServiceImpl_MP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/pages/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_12_hot_deploy/src/test/java/com/meyok/SpringbootHotDeployApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_13_configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/meyok/Springboot13ConfigurationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/java/com/meyok/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_13_configuration/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_13_configuration/src/test/java/com/meyok/Springboot13ConfigurationApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/meyok/Springboot14TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/meyok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/meyok/mapper/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/meyok/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/java/com/meyok/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/meyok/ConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/meyok/DaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/meyok/PropertiesAndArgsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/meyok/WebTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/meyok/config/MsgConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_14_test/src/test/java/com/meyok/testcase/domain/BookCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_15_sql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_15_sql/src/main/java/com/meyok/Springboot15SqlApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_15_sql/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_15_sql/src/main/java/com/meyok/mapper/IBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_15_sql/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_15_sql/src/test/java/com/meyok/Springboot15SqlApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_16_redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_16_redis/src/main/java/com/meyok/Springboot16RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_16_redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_16_redis/src/test/java/com/meyok/Springboot16RedisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_16_redis/src/test/java/com/meyok/StringRedisTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_17_mongodb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/java/com/meyok/Springboot17MongodbApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_17_mongodb/src/test/java/com/meyok/Springboot17MongodbApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_es/src/main/java/com/meyok/Springboot18EsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_es/src/main/java/com/meyok/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_es/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_es/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_18_es/src/test/java/com/meyok/Springboot18EsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/Springboot19CacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/controller/MsgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/controller/SMSCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/domain/SMSCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/service/IMsgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/service/ISMSCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/service/impl/MsgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/service/impl/SMSCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/java/com/meyok/utils/CodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_19_cache/src/test/java/com/meyok/Springboot19CacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/Springboot20JetcacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/controller/SMSCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/domain/SMSCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/service/ISMSCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/service/impl/SMSCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/java/com/meyok/utils/CodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_20_jetcache/src/test/java/com/meyok/Springboot20JetcacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/java/com/meyok/Springboot21J2cacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/java/com/meyok/controller/SMSCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/java/com/meyok/domain/SMSCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/java/com/meyok/service/ISMSCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/java/com/meyok/service/impl/SMSCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/java/com/meyok/utils/CodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/main/resources/j2cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_21_j2cache/src/test/java/com/meyok/Springboot21J2cacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/src/main/java/com/meyok/Springboot22TaskApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/src/main/java/com/meyok/TimerTaskApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/src/main/java/com/meyok/config/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/src/main/java/com/meyok/quartz/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/src/main/java/com/meyok/quartz/MyQuartz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_22_task/src/test/java/com/meyok/Springboot22TaskApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_23_mail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_23_mail/src/main/java/com/meyok/Springboot23MailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_23_mail/src/main/java/com/meyok/service/SendMailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_23_mail/src/main/java/com/meyok/service/impl/SendMailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_23_mail/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_23_mail/src/test/java/com/meyok/Springboot23MailApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_05_rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_01_05_rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_01_05_rest/src/main/java/com/meyok/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_01_05_rest/src/main/java/com/meyok/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meyok/springbootlearn/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -48,45 +298,148 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="25YS2bhsZnutKmhXtIO2lUfrrGJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/springboot_01_01_quickstart/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_01_02_quickstart" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/springboot_04_junit/src/test/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_21_j2cache/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="project.structure.side.proportion" value="0.35402298" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_21_j2cache\src\main\resources" />
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_20_jetcache\src\main\java\com\meyok\service\impl" />
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_20_jetcache\src\main\java\com\meyok\service" />
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_20_jetcache\src\main\java\com\meyok\controller" />
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_hot_deploy\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_10_profiles" />
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_10_profiles\src\main\resources\simple" />
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_02_base_configuration\src\main\resources\bak" />
+      <recent name="C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_02_base_configuration\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.MeYok" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.MeYok.controller" />
+      <recent name="com.meyok.service.impl" />
+      <recent name="com.meyok.service" />
+      <recent name="com.meyok.utils" />
+      <recent name="com.meyok.domain" />
+      <recent name="com.meyok.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.73">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_01_04_quickstart" />
+  <component name="RunManager" selected="JUnit.Springboot23MailApplicationTests.contextLoads">
+    <configuration name="CodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.meyok.utils.CodeUtils" />
+      <module name="springboot_19_cache" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.MeYok.*" />
+          <option name="PATTERN" value="com.meyok.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerTaskApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.meyok.TimerTaskApp" />
+      <module name="springboot_22_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meyok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot18EsApplicationTests.getGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_18_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meyok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meyok" />
+      <option name="MAIN_CLASS_NAME" value="com.meyok.Springboot18EsApplicationTests" />
+      <option name="METHOD_NAME" value="getGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot18EsApplicationTests.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_18_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meyok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meyok" />
+      <option name="MAIN_CLASS_NAME" value="com.meyok.Springboot18EsApplicationTests" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot23MailApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_23_mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meyok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meyok" />
+      <option name="MAIN_CLASS_NAME" value="com.meyok.Springboot23MailApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_02_base_configuration" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.MeYok.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSMPApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_08_ssmp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.SSMPApplication" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +461,153 @@
     <configuration name="Springboot0103QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_01_03_quickstart" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.MeYok.Springboot0103QuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04JunitApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_04_junit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot04JunitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04JunitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_04_junit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.springboot_04_junit.Springboot04JunitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot05MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_05_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.MeYok.Springboot05MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot06MybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_06_mybatis_plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot06MybatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot07druidApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_07_druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot07druidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot07druidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_07_druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot07druidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot10ProfilesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_10_profiles" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot10ProfilesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot13ConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_13_configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot13ConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot14TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_14_test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot14TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot15SqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_15_sql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot15SqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot16RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_16_redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot16RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot17MongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_17_mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot17MongodbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot18EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_18_es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot18EsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot19CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_19_cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot19CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot20JetcacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_20_jetcache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot20JetcacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot21J2cacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_21_j2cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot21J2cacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot22TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_22_task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot22TaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot23MailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_23_mail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.Springboot23MailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_02_base_configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.MeYok.SpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootHotDeployApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_12_hot_deploy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.SpringbootHotDeployApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootHotDeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_12_hot_deploy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meyok.SpringbootHotDeployApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,15 +702,46 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CodeUtils" />
+      <item itemvalue="JUnit.Springboot18EsApplicationTests.getGet" />
+      <item itemvalue="JUnit.Springboot18EsApplicationTests.testSearch" />
       <item itemvalue="Spring Boot.Springboot0101QuickstartApplication" />
       <item itemvalue="Spring Boot.Springboot0102QuickstartApplication" />
       <item itemvalue="Spring Boot.Springboot0103QuickstartApplication" />
+      <item itemvalue="Spring Boot.SpringbootApplication" />
+      <item itemvalue="Spring Boot.Springboot04JunitApplication" />
+      <item itemvalue="Spring Boot.Springboot05MybatisApplication" />
+      <item itemvalue="Spring Boot.Springboot06MybatisPlusApplication" />
+      <item itemvalue="Spring Boot.Springboot07druidApplication" />
+      <item itemvalue="Spring Boot.Springboot04JunitApplication (1)" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Springboot07druidApplication (1)" />
+      <item itemvalue="Spring Boot.SSMPApplication" />
+      <item itemvalue="Spring Boot.Springboot10ProfilesApplication" />
+      <item itemvalue="Spring Boot.SpringbootHotDeployApplication" />
+      <item itemvalue="Spring Boot.Springboot13ConfigurationApplication" />
+      <item itemvalue="Spring Boot.SpringbootHotDeployApplication (1)" />
+      <item itemvalue="Spring Boot.Springboot14TestApplication" />
+      <item itemvalue="Spring Boot.Springboot15SqlApplication" />
+      <item itemvalue="Spring Boot.Springboot16RedisApplication" />
+      <item itemvalue="Spring Boot.Springboot17MongodbApplication" />
+      <item itemvalue="Spring Boot.Springboot18EsApplication" />
+      <item itemvalue="Spring Boot.Springboot19CacheApplication" />
+      <item itemvalue="Spring Boot.Springboot20JetcacheApplication" />
+      <item itemvalue="Spring Boot.Springboot21J2cacheApplication" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.73" />
+      <item itemvalue="Spring Boot.Springboot22TaskApplication" />
+      <item itemvalue="Application.TimerTaskApp" />
+      <item itemvalue="Spring Boot.Springboot23MailApplication" />
+      <item itemvalue="JUnit.Springboot23MailApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.Springboot23MailApplicationTests.contextLoads" />
+        <item itemvalue="Application.TimerTaskApp" />
+        <item itemvalue="Application.CodeUtils" />
+        <item itemvalue="JUnit.Springboot18EsApplicationTests.testSearch" />
+        <item itemvalue="JUnit.Springboot18EsApplicationTests.getGet" />
       </list>
     </recent_temporary>
   </component>
@@ -227,11 +758,53 @@
       <workItem from="1645852376543" duration="302000" />
       <workItem from="1645852699594" duration="6843000" />
       <workItem from="1645861630107" duration="6359000" />
+      <workItem from="1646036368222" duration="5206000" />
+      <workItem from="1646042313306" duration="6902000" />
+      <workItem from="1646063210027" duration="1490000" />
+      <workItem from="1646064747104" duration="95000" />
+      <workItem from="1646109650564" duration="21000" />
+      <workItem from="1646109695096" duration="3882000" />
+      <workItem from="1646124732806" duration="5565000" />
+      <workItem from="1646134147714" duration="8626000" />
+      <workItem from="1646209782024" duration="6174000" />
+      <workItem from="1646284552080" duration="119000" />
+      <workItem from="1646284699610" duration="11479000" />
+      <workItem from="1646306579431" duration="4165000" />
+      <workItem from="1646365283134" duration="11508000" />
+      <workItem from="1646392724049" duration="7960000" />
+      <workItem from="1646488144472" duration="2173000" />
+      <workItem from="1646542085957" duration="13546000" />
+      <workItem from="1646641356403" duration="3133000" />
+      <workItem from="1646910594262" duration="7466000" />
+      <workItem from="1646974434088" duration="11079000" />
+      <workItem from="1647074318898" duration="1076000" />
+      <workItem from="1647161878540" duration="1618000" />
+      <workItem from="1647163764657" duration="6646000" />
+      <workItem from="1647177649033" duration="671000" />
+      <workItem from="1647247995038" duration="2211000" />
+      <workItem from="1647346641151" duration="1301000" />
+      <workItem from="1647421676360" duration="7945000" />
+      <workItem from="1647431011909" duration="6409000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022/3/16 init" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022/3/16 init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

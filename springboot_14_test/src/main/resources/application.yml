@@ -1,0 +1,29 @@
+test:
+  prop: testValue
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///ssm_db?serverTimezone=UTC
+      username: root
+      password: root
+  main:
+    banner-mode: off
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+testcase:
+  book:
+    id: ${random.int}
+    id2: ${random.int(10)}
+    type: ${random.int(5,10)}
+    name: MeYok${random.value}
+    uuid: ${random.uuid}
+    publishTime: ${random.long}

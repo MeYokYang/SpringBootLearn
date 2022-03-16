@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///ssm_db?serverTimezone=UTC
+    username: root
+    password: root
+
+  main:
+    banner-mode: off
+
+# 设置Mp相关配置
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_

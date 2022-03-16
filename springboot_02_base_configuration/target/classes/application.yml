@@ -1,0 +1,32 @@
+server:
+  port: 80
+  servlet:
+    context-path: /test
+
+spring:
+  main:
+    banner-mode: off
+
+
+country: beijing
+
+users:
+  name: MeYok
+  age: 21
+
+list:
+  - a
+  - b
+
+baseDir: c:\windows
+tempDir: ${baseDir}\temp
+tempDir1: "${baseDir}\temp\t1\t2"
+
+# 创建类，用于封装下面的数据
+# 由spring帮我们去加载数据到对象中，一定要告诉spring加载这组信息
+# 使用时候从spring中直接获取信息使用
+dataSource:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql:///springboot_db
+  username: root
+  password: root

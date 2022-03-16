@@ -1,0 +1,27 @@
+2022-03-04 13:07:45.151  INFO 1548 --- [main] c.meyok.Springboot10ProfilesApplication  : Starting Springboot10ProfilesApplication using Java 16.0.2 on MeYok with PID 1548 (C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_10_profiles\target\classes started by 25537 in C:\Users\25537\IdeaProjects\SpringBootLearn)
+2022-03-04 13:07:45.154  INFO 1548 --- [main] c.meyok.Springboot10ProfilesApplication  : The following 3 profiles are active: "dev", "devMVC", "devDB"
+2022-03-04 13:07:45.933  WARN 1548 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.meyok]' package. Please check your configuration.
+2022-03-04 13:07:46.210  INFO 1548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-03-04 13:07:46.218  INFO 1548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 13:07:46.219  INFO 1548 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-04 13:07:46.283  INFO 1548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/ebank]  : Initializing Spring embedded WebApplicationContext
+2022-03-04 13:07:46.284  INFO 1548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1084 ms
+2022-03-04 13:07:46.509  INFO 1548 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-03-04 13:07:46.600  INFO 1548 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-03-04 13:07:46.781  INFO 1548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/ebank'
+2022-03-04 13:07:46.789  INFO 1548 --- [main] c.meyok.Springboot10ProfilesApplication  : Started Springboot10ProfilesApplication in 2.102 seconds (JVM running for 2.622)
+2022-03-04 13:07:52.967  INFO 1548 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-03-04 13:07:52.968  INFO 1548 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-03-04 13:11:08.962  INFO 1604 --- [main] c.meyok.Springboot10ProfilesApplication  : Starting Springboot10ProfilesApplication using Java 16.0.2 on MeYok with PID 1604 (C:\Users\25537\IdeaProjects\SpringBootLearn\springboot_10_profiles\target\classes started by 25537 in C:\Users\25537\IdeaProjects\SpringBootLearn)
+2022-03-04 13:11:08.965  INFO 1604 --- [main] c.meyok.Springboot10ProfilesApplication  : The following 3 profiles are active: "dev", "devMVC", "devDB"
+2022-03-04 13:11:09.627  WARN 1604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.meyok]' package. Please check your configuration.
+2022-03-04 13:11:09.894  INFO 1604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-03-04 13:11:09.903  INFO 1604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 13:11:09.903  INFO 1604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-04 13:11:09.967  INFO 1604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/ebank]  : Initializing Spring embedded WebApplicationContext
+2022-03-04 13:11:09.967  INFO 1604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 948 ms
+2022-03-04 13:11:10.188  INFO 1604 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-03-04 13:11:10.272  INFO 1604 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-03-04 13:11:10.460  INFO 1604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/ebank'
+2022-03-04 13:11:10.469  INFO 1604 --- [main] c.meyok.Springboot10ProfilesApplication  : Started Springboot10ProfilesApplication in 1.935 seconds (JVM running for 2.459)
+2022-03-04 13:11:16.109  INFO 1604 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ebank]  : Initializing Spring DispatcherServlet 'dispatcherServlet'

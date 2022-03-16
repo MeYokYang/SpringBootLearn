@@ -1,0 +1,28 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///ssm_db?serverTimezone=UTC
+      username: root
+      password: root
+  main:
+    banner-mode: off
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#log-impl:开启sql打印
+
+
+#给程序员用的application.yml
+#如果配置文件名不为application.yml，为自定义名字，如ebank.yml
+#   1.可添加参数--spring.config.name=ebank
+#   2.可添加参数--spring.config.location=classpath:/ebank.yml

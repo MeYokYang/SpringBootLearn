@@ -1,0 +1,1 @@
+2022-03-04 13:31:07.560  INFO 11784 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,0 +1,24 @@
+server:
+  port: 81
+
+#spring:
+#  datasource:
+#    druid:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql:///ssm_db?serverTimezone=UTC
+#      username: root
+#      password: root
+#  main:
+#    banner-mode: off
+#
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      table-prefix: tbl_
+#      id-type: auto
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 给项目经理用的application.yml，级别比程序员的高，一样的会覆盖，不一样会叠加
+# 将application.xml放在同jar包层级，给运维人员用，级别比项目经理高
+# 将application.xml放在同jar包层级下config目录里，给运维组长用，级别最高
